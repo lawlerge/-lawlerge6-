@@ -1,0 +1,8 @@
+class Solution {
+public:
+    vector<vector<int>> permute(vector<int>& num) {
+        vector<vector<int>> res;
+        vector<int> out, visited(num.size(), 0);
+        permuteDFS(num, 0, visited, out, res);
+        return res;
+    }
