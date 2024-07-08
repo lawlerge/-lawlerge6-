@@ -1,0 +1,5 @@
+var pixelIndex = 0;
+var red   = imageData.data[pixelIndex    ];  // red   color
+var green = imageData.data[pixelIndex + 1];  // green color
+var blue  = imageData.data[pixelIndex + 2];  // blue  color
+var alpha = imageData.data[pixelIndex + 3];
